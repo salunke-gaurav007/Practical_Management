@@ -1,0 +1,22 @@
+{
+  "name": "practical-management-system",
+  "version": "1.0.0",
+  "description": "Backend project for practical management system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd api && node index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "author": "Jagruti",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "node": "^20.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
